@@ -1,0 +1,278 @@
+{
+  "start-time" : "2016-04-26T20:03:55.619",
+  "akka-version" : "2.4.0.bin-rp-16s01p06",
+  "classpath" : "/Users/JustinPihony1/Downloads/activator-dist-1.3.10/bin/MSSQLTest/target/scala-2.11/classes/",
+  "configuration-warnings" : [],
+  "system-metrics" : {
+    "heap-init" : 2147483648,
+    "heap-max" : 2052063232,
+    "heap-used" : 153308680,
+    "heap-committed" : 2052063232,
+    "os-processors" : 8,
+    "mem-pool-0" : {
+      "name" : "Code Cache",
+      "type" : "Non-heap memory",
+      "init" : 2555904,
+      "max" : 268435456,
+      "used" : 57169088,
+      "committed" : 60620800
+    },
+    "mem-pool-1" : {
+      "name" : "Metaspace",
+      "type" : "Non-heap memory",
+      "init" : 0,
+      "max" : 536870912,
+      "used" : 179641648,
+      "committed" : 184852480
+    },
+    "mem-pool-2" : {
+      "name" : "Compressed Class Space",
+      "type" : "Non-heap memory",
+      "init" : 0,
+      "max" : 1073741824,
+      "used" : 30119984,
+      "committed" : 31760384
+    },
+    "mem-pool-3" : {
+      "name" : "PS Eden Space",
+      "type" : "Heap memory",
+      "init" : 537395200,
+      "max" : 523763712,
+      "used" : 84764688,
+      "committed" : 523763712
+    },
+    "mem-pool-4" : {
+      "name" : "PS Survivor Space",
+      "type" : "Heap memory",
+      "init" : 89128960,
+      "max" : 96468992,
+      "used" : 0,
+      "committed" : 96468992
+    },
+    "mem-pool-5" : {
+      "name" : "PS Old Gen",
+      "type" : "Heap memory",
+      "init" : 1431830528,
+      "max" : 1431830528,
+      "used" : 68543992,
+      "committed" : 1431830528
+    }
+  },
+  "configuration" : {
+    "actor" : {
+        "default-dispatcher" : {
+            "fork-join-executor" : {
+                "parallelism-factor" : 1,
+                "parallelism-max" : 24,
+                "task-peeking-mode" : "LIFO"
+            }
+        }
+    },
+    "akka" : {
+        "actor" : {
+            "default-dispatcher" : {
+                "fork-join-executor" : {
+                    "parallelism-factor" : 1,
+                    "parallelism-max" : 24,
+                    "task-peeking-mode" : "LIFO"
+                }
+            }
+        },
+        "diagnostics" : {
+            "checker" : {
+                "confirmed-power-user-settings" : [
+                    "akka.actor.default-dispatcher.fork-join-executor.task-peeking-mode"
+                ],
+                "disabled-checks" : [
+                    "jvm-exit-on-fatal-error"
+                ]
+            }
+        },
+        "jvm-exit-on-fatal-error" : "off",
+        "loggers" : [
+            "akka.event.slf4j.Slf4jLogger"
+        ],
+        "version" : "2.4-bin-rp-16s01p06"
+    },
+    "awt" : {
+        "toolkit" : "sun.lwawt.macosx.LWCToolkit"
+    },
+    "diagnostics" : {
+        "checker" : {
+            "confirmed-power-user-settings" : [
+                "akka.actor.default-dispatcher.fork-join-executor.task-peeking-mode"
+            ],
+            "disabled-checks" : [
+                "jvm-exit-on-fatal-error"
+            ]
+        }
+    },
+    "excluded-sensitive-paths" : [
+        "user.home",
+        "ftp.nonProxyHosts",
+        "user.dir",
+        "http.nonProxyHosts",
+        "socksNonProxyHosts",
+        "user.name"
+    ],
+    "file" : {
+        "encoding" : {
+            "pkg" : "sun.io"
+        },
+        "separator" : "/"
+    },
+    "ftp" : {},
+    "gopherProxySet" : "false",
+    "http" : {},
+    "java" : {
+        "awt" : {
+            "graphicsenv" : "sun.awt.CGraphicsEnvironment",
+            "printerjob" : "sun.lwawt.macosx.CPrinterJob"
+        },
+        "class" : {
+            "path" : "/usr/local/Cellar/sbt/0.13.9/libexec/sbt-launch.jar",
+            "version" : "52.0"
+        },
+        "endorsed" : {
+            "dirs" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/endorsed"
+        },
+        "ext" : {
+            "dirs" : "/Users/JustinPihony1/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"
+        },
+        "home" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre",
+        "io" : {
+            "tmpdir" : "/var/folders/cn/_rr4sr8n0g7b0hffk9lvyn600000gp/T/"
+        },
+        "library" : {
+            "path" : "/Users/JustinPihony1/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.:/Users/JustinPihony1/Downloads/activator-dist-1.3.10/bin/MSSQLTest/target/native_libraries/64bits"
+        },
+        "runtime" : {
+            "name" : "Java(TM) SE Runtime Environment",
+            "version" : "1.8.0_65-b17"
+        },
+        "specification" : {
+            "name" : "Java Platform API Specification",
+            "vendor" : "Oracle Corporation",
+            "version" : "1.8"
+        },
+        "vendor" : {
+            "url" : {
+                "bug" : "http://bugreport.sun.com/bugreport/"
+            }
+        },
+        "version" : "1.8.0_65",
+        "vm" : {
+            "info" : "mixed mode",
+            "name" : "Java HotSpot(TM) 64-Bit Server VM",
+            "specification" : {
+                "name" : "Java Virtual Machine Specification",
+                "vendor" : "Oracle Corporation",
+                "version" : "1.8"
+            },
+            "vendor" : "Oracle Corporation",
+            "version" : "25.65-b01"
+        }
+    },
+    "jline" : {
+        "esc" : {
+            "timeout" : "0"
+        },
+        "shutdownhook" : "false"
+    },
+    "jvm-exit-on-fatal-error" : "off",
+    "line" : {
+        "separator" : "\n"
+    },
+    "loggers" : [
+        "akka.event.slf4j.Slf4jLogger"
+    ],
+    "os" : {
+        "arch" : "x86_64",
+        "name" : "Mac OS X",
+        "version" : "10.11.4"
+    },
+    "path" : {
+        "separator" : ":"
+    },
+    "play" : {
+        "evolutions" : {
+            "db" : {
+                "default" : {
+                    "autoApply" : false
+                }
+            }
+        },
+        "server" : {
+            "dir" : "/Users/JustinPihony1/Downloads/activator-dist-1.3.10/bin/MSSQLTest"
+        }
+    },
+    "slick" : {
+        "dbs" : {
+            "default" : {
+                "db" : {
+                    "connectionTimeout" : "15s",
+                    "driver" : "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+                    "password" : "pa55w0rd",
+                    "url" : "jdbc:sqlserver://testcase.cz6szrlchcxd.us-east-1.rds.amazonaws.com:1433;databaseName=play",
+                    "user" : "sa"
+                },
+                "driver" : "com.typesafe.slick.driver.ms.SQLServerDriver$"
+            }
+        }
+    },
+    "sqlserver-jdbc" : {
+        "enabled" : true
+    },
+    "sun" : {
+        "arch" : {
+            "data" : {
+                "model" : "64"
+            }
+        },
+        "boot" : {
+            "class" : {
+                "path" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/classes"
+            },
+            "library" : {
+                "path" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib"
+            }
+        },
+        "cpu" : {
+            "endian" : "little",
+            "isalist" : ""
+        },
+        "io" : {
+            "unicode" : {
+                "encoding" : "UnicodeBig"
+            }
+        },
+        "java" : {
+            "command" : "/usr/local/Cellar/sbt/0.13.9/libexec/sbt-launch.jar",
+            "launcher" : "SUN_STANDARD"
+        },
+        "jnu" : {
+            "encoding" : "UTF-8"
+        },
+        "management" : {
+            "compiler" : "HotSpot 64-Bit Tiered Compilers"
+        },
+        "nio" : {
+            "ch" : {
+                "bugLevel" : ""
+            }
+        },
+        "os" : {
+            "patch" : {
+                "level" : "unknown"
+            }
+        }
+    },
+    "user" : {
+        "country" : "US",
+        "language" : "en",
+        "timezone" : "America/New_York"
+    },
+    "version" : "2.4-bin-rp-16s01p06"
+}
+}
+
